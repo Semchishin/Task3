@@ -9,8 +9,8 @@ public class Main {
         userService.saveUser("Дмитрий", "Медведев", (byte) 59);
         userService.saveUser("Николай", "Патрушев", (byte) 73);
         userService.saveUser("Дмитрий", "Песков", (byte) 57);
-        System.out.println(userService.getAllUsers());
-        userService.cleanUsersTable();
-        userService.dropUsersTable();
+       System.out.println(userService.getAllUsers());
+       userService.cleanUsersTable();
+       userService.dropUsersTable();
     }
 }
